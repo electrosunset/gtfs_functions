@@ -1,1 +1,3 @@
 !pip install gtfs_functions
+import gtfs_functions as gtfs
+routes, stops, stop_times, trips, shapes = gtfs.import_gtfs(r"C:\Users\santi\Desktop\Articles\SFMTA_GTFS.zip")
